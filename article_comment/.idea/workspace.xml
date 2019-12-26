@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce7ce9d1-c5bb-4c8f-b179-c1294262d53e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/article_comment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/spiders/auto_home_article_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_comment/start_article_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/article.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/.idea/article_content.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/spiders/auto_home_article_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/article_content/start_article_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/models/article.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/.idea/article_list.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/spiders/auto_home_article_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/.idea/article_pv.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/spiders/auto_home_article_pv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/article_pv/start_article_pv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/models/article.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_pv/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/.idea/article_series.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/spiders/auto_home_article_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/article_series/start_article_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/models/article.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_series/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/.idea/auto_home_club.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/spiders/auto_home__club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/auto_home_club/start_club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_club/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/.idea/auto_home_koubei.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/spiders/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/models/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/start_koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/spiders/auto_home_brand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/spiders/auto_home_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/spiders/auto_home_spec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/items/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/items/brand_items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/items/series_items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/items/spec_items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/models/cars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/start1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/.idea/club_activity_friends.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/club_activity_friends/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/club_activity_friends/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/club_activity_friends/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/club_activity_friends/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/club_activity_friends/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/club_activity_friends/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/club_activity_friends/spiders/auto_home_club_activity_friends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends/start_club_activity_friends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/.idea/club_activity_friends_details.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/club_activity_friends_details/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/club_activity_friends_details/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/club_activity_friends_details/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/club_activity_friends_details/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/club_activity_friends_details/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/club_activity_friends_details/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/club_activity_friends_details/spiders/auto_home_club_activity_friends_details.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_activity_friends_details/start_club_activity_friends_detail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/.idea/club_circle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/spiders/auto_home_club_circle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/club_circle/start_club_circle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/.idea/club_topic_comments.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/spiders/auto_home_club_topic_comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/start_club_topic_comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/.idea/club_topic_content.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/autohome.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/spiders/auto_home_club_topic_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/club_topic_content/start_club_topic_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_content/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/.idea/club_topic_info.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/spiders/auto_home_club_topic_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/club_topic_info/start_club_topic_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/.idea/club_topic_list.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/spiders/auto_home_club_topic_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/start_club_topic_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/.idea/club_topic_read.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/spiders/auto_home_club_topic_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/club_topic_read/start_club_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/models/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_read/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/.idea/koubei_article.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/koubei_article/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/koubei_article/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/koubei_article/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/koubei_article/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/koubei_article/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/koubei_article/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/koubei_article/spiders/auto_home_koubei_article.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/models/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/start_koubei_article.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/.idea/koubei_comment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/spiders/auto_home_koubei_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/models/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/start_koubei_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/.idea/koubei_rank.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/koubei_rank/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/koubei_rank/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/koubei_rank/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/koubei_rank/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/koubei_rank/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/koubei_rank/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/koubei_rank/spiders/auto_home_koubei_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/models/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_rank/start_koubei_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/.idea/koubei_read.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/koubei_read/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/koubei_read/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/koubei_read/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/koubei_read/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/koubei_read/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/koubei_read/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/koubei_read/spiders/auto_home_koubei_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/models/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_read/start_koubei_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/.idea/koubei_tag.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/koubei_tag/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/koubei_tag/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/koubei_tag/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/koubei_tag/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/koubei_tag/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/koubei_tag/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/koubei_tag/spiders/auto_home_koubei_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/models/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag/start_koubei_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/.idea/koubei_tag_num.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/koubei_tag_num/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/koubei_tag_num/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/koubei_tag_num/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/koubei_tag_num/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/koubei_tag_num/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/koubei_tag_num/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/koubei_tag_num/spiders/auto_home_koubei_tag_num.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/models/koubei.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_tag_num/start_koubei_tag_num.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/article_comment$start_article_comment.coverage" NAME="start_article_comment Coverage Results" MODIFIED="1572249478868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/article_comment" />
+    <SUITE FILE_PATH="coverage/article_comment$auto_home_article_comment.coverage" NAME="auto_home_article_comment Coverage Results" MODIFIED="1572249548255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/article_comment/spiders" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prin</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/dbhelper.py" />
+        <option value="$PROJECT_DIR$/lib/formmat_time.py" />
+        <option value="$PROJECT_DIR$/article_comment/items.py" />
+        <option value="$PROJECT_DIR$/article_comment/pipelines.py" />
+        <option value="$PROJECT_DIR$/article_comment/settings.py" />
+        <option value="$PROJECT_DIR$/article_comment/start_article_comment.py" />
+        <option value="$PROJECT_DIR$/article_comment/spiders/auto_home_article_comment.py" />
+        <option value="$PROJECT_DIR$/models/article.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-122" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="article_comment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article_comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article_comment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article_comment" type="462c0819:PsiDirectoryNode" />
+              <item name="article_comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article_comment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article_comment" type="462c0819:PsiDirectoryNode" />
+              <item name="article_comment" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article_comment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article_comment" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\int\Cars\article_comment" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.auto_home_article_comment">
+    <configuration name="auto_home_article_comment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="article_comment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/article_comment/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/article_comment/spiders/auto_home_article_comment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_article_comment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="article_comment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/article_comment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/article_comment/start_article_comment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.auto_home_article_comment" />
+        <item itemvalue="Python.start_article_comment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce7ce9d1-c5bb-4c8f-b179-c1294262d53e" name="Default Changelist" comment="" />
+      <created>1572248019500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572248019500</updated>
+      <workItem from="1572248020964" duration="1900000" />
+      <workItem from="1577271116208" duration="67000" />
+      <workItem from="1577327095706" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1974000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-122" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4749722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/dbhelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/formmat_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_comment/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_comment/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="76" column="72" selection-start-line="76" selection-start-column="72" selection-end-line="76" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/lxml/html/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_comment/start_article_comment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/article.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_comment/spiders/auto_home_article_comment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article_comment/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

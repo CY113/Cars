@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ea026da-e86b-4299-b9b1-556f5947d094" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../article_comment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../article_comment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_content/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../article_content/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../article_list/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../article_list/article_list/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../article_list/article_list/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_home_club/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_home_club/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_home_koubei/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/spiders/koubei.py" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_home_koubei/auto_home_koubei/spiders/koubei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../brand_series_spec/brand_series_spec/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brand_series_spec/start1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../brand_series_spec/start1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_circle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../club_circle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_comments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_comments/club_topic_comments/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_comments/models/club.py" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_comments/models/club.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_info/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_list/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_list/club_topic_list/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_list/club_topic_list/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../club_topic_list/club_topic_list/spiders/auto_home_club_topic_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../club_topic_list/club_topic_list/spiders/auto_home_club_topic_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_article/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../koubei_article/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../koubei_comment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/koubei_comment/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../koubei_comment/koubei_comment/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../koubei_comment/models/koubei.py" beforeDir="false" afterPath="$PROJECT_DIR$/../koubei_comment/models/koubei.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/auto_home_club$start_club.coverage" NAME="start_club Coverage Results" MODIFIED="1572261356404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_home_club" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto_home_club/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auto_home_club/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1752" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/auto_home_club/spiders/auto_home__club.py" />
+        <option value="$PROJECT_DIR$/auto_home_club/pipelines.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1928" />
+    <option name="y" value="-122" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="auto_home_club" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_home_club" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto_home_club" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_home_club" type="462c0819:PsiDirectoryNode" />
+              <item name="auto_home_club" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../club_topic_list" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start_club" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="auto_home_club" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/auto_home_club" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_home_club/start_club.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start_club" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ea026da-e86b-4299-b9b1-556f5947d094" name="Default Changelist" comment="" />
+      <created>1572261289024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572261289024</updated>
+      <workItem from="1572261290237" duration="187000" />
+      <workItem from="1577273760686" duration="928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1115000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-122" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3971079" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/auto_home_club/spiders/auto_home__club.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_home_club/start_club.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_home_club/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_home_club/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1752" />
+      </provider>
+    </entry>
+  </component>
+</project>
