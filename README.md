@@ -17,15 +17,6 @@ MYSQL_PASSWD = '123456'         #数据库密码，请修改
 
 MYSQL_PORT = 3306               #数据库端口，在dbhelper中使用
 ```
- - 指定pipelines
-
-``` stylus
-ITEM_PIPELINES = {
-    'webCrawler_scrapy.pipelines.WebcrawlerScrapyPipeline': 300,#保存到mysql数据库
-    'webCrawler_scrapy.pipelines.JsonWithEncodingPipeline': 300,#保存到文件中
-}
-```
-
 
 ## items.py
  - 声明需要格式化处理的字段
@@ -97,26 +88,6 @@ class WebcrawlerScrapyItem(scrapy.Item):
     #错误处理方法
     def _handle_error(self, failue, item, spider):
         print failue
-```
-
-### 二、保存到文件中的类`JsonWithEncodingPipeline`（在settings中声明）
-
- - 保存为json格式的文件，比较简单，代码如下
- 
-
-``` stylus
-class JsonWithEncodingPipeline(object):
-    '''保存到文件中对应的class
-       1、在settings.py文件中配置
-       2、在自己实现的爬虫类中yield item,会自动执行'''    
-    def __init__(self):
-        self.file = codecs.open('info.json', 'w', encoding='utf-8')#保存为json文件
-    def process_item(self, item, spider):
-        line = json.dumps(dict(item)) + "\n"#转为json的
-        self.file.write(line)#写入文件中
-        return item
-    def spider_closed(self, spider):#爬虫结束时关闭文件
-        self.file.close()
 ```
 
 
@@ -209,19 +180,4 @@ class JsonWithEncodingPipeline(object):
                     
     yield item  #返回item,这时会自定解析item
 ```
-
-## 测试
- - 测试DBHelper
- 创建testdb数据库和testtable表; python dbhelper.py
-
-![创建testdb数据库和testtable表][1]
- - 测试爬虫
- 在D盘建立文件夹pics; 图片自动保存到该文件夹中。
- `scrapy crawl webCrawler_scrapy`运行爬虫后会将爬取得图片保存到本地，并且将name和url保存到数据库中
-
-![测试爬虫][2]    
-
-
-  [1]: ./images/testDBHelper.gif "testDBHelper.gif"
-  [2]: ./images/testCrawl.gif "testCrawl.gif"
 
